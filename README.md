@@ -2,6 +2,8 @@
 
 TalesRunner Script Sync. It reads TalesRunner script `.txt` files and loads them into matching MySQL tables.
 
+<img width="520" height="420" alt="Screenshot 2026-10-15 225208" src="https://github.com/user-attachments/assets/abd28a69-8b96-49cf-86d2-136f87f47d31" />
+
 ## Requirements
 
 - Windows
