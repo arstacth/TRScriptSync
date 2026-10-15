@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ApplicationHighDpiMode>SystemAware</ApplicationHighDpiMode>
+    <RootNamespace>TRScriptSync</RootNamespace>
+    <AssemblyName>TRScriptSync</AssemblyName>
+    <AssemblyTitle>TRScriptSync</AssemblyTitle>
+    <Product>TRScriptSync</Product>
+    <Description>TalesRunner Script Sync</Description>
+    <Company>TRScriptSync</Company>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <PublishSingleFile>true</PublishSingleFile>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="MySqlConnector" Version="2.4.0" />
+  </ItemGroup>
+</Project>
